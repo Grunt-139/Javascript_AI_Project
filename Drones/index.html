@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Drone Experiment Test</title>
+
+    <!--Script References-->
+    <script type="text/javascript" src="../SharedScripts/MathHelper.js"></script>
+    <script type="text/javascript" src="../SharedScripts/SpatialBucketManager.js"></script>
+    <script type="text/javascript" src="Scripts/DroneExperiment.js"></script>
+    <script type="text/javascript" src="../SharedScripts/requestAnimationFramePolyfill.js"></script>
+    <script type="text/javascript" src="../SharedScripts/AiObject.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/style.css" />
+</head>
+<body>
+    <div id="Game">
+        <form>
+            Spawn Amount:
+            <input type="range" id="spawnAmount" name="amountRange" min="1" max="500" value="0" oninput="this.form.amountInput.value=this.value" />
+            <input type="number" name="amountInput" min="0" max="20" value="1" oninput="this.form.amountRange.value=this.value" />
+        </form>
+        <form>
+            Block Amount:
+            <input type="range" id="blockAmount" name="amountRange" min="1" max="100" value="1" oninput="this.form.amountInput.value=this.value" />
+            <input type="number" name="amountInput" min="1" max="100" value="1" oninput="this.form.amountRange.value=this.value" />
+        </form>
+        <form>
+            Max Speed
+            <input type="range" id="maxSpeedAmount" name="amountRange" min="1" max="100" value="1" oninput="this.form.amountInput.value=this.value" />
+            <input type="number" name="amountInput" min="1" max="100" value="1" oninput="this.form.amountRange.value=this.value" />
+        </form>
+        <form>
+            Turn Speed:
+            <input type="range" id="turnSpeedAmount" name="amountRange" min="1" max="100" value="1" oninput="this.form.amountInput.value=this.value" />
+            <input type="number" name="amountInput" min="1" max="100" value="1" oninput="this.form.amountRange.value=this.value" />
+        </form>
+
+        <canvas id="gameCanvas" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{095068AB-240F-48DE-AF5B-F6DF279327CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Drone", "Drone", "{B33332B3-9589-40F3-8208-7647FDCDBF79}"
+	ProjectSection(SolutionItems) = preProject
+		Drones\index.html = Drones\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Legion", "Legion", "{B98B422A-3E7A-4AF2-8D0B-3CAC66947022}"
+	ProjectSection(SolutionItems) = preProject
+		Legion\index.html = Legion\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{AC977798-C852-4EEE-97E8-64CEFA18EDB9}"
+	ProjectSection(SolutionItems) = preProject
+		Base\index.html = Base\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5EE28BA0-F542-44CF-ACC2-7A5FA19B7C65}"
+	ProjectSection(SolutionItems) = preProject
+		Base\Scripts\aibehaviour.js = Base\Scripts\aibehaviour.js
+		Base\Scripts\AiObject.js = Base\Scripts\AiObject.js
+		Base\Scripts\MathHelper.js = Base\Scripts\MathHelper.js
+		Base\Scripts\requestAnimationFramePolyfill.js = Base\Scripts\requestAnimationFramePolyfill.js
+		Base\Scripts\SpatialBucketManager.js = Base\Scripts\SpatialBucketManager.js
+		Base\Scripts\Vector2.js = Base\Scripts\Vector2.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{056687C5-DA5D-48B6-B290-6EC87010CBCF}"
+	ProjectSection(SolutionItems) = preProject
+		Base\Styles\style.css = Base\Styles\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedScripts", "SharedScripts", "{D7D7DC4A-78BA-4E21-B771-EF2C478683AB}"
+	ProjectSection(SolutionItems) = preProject
+		SharedScripts\AiObject.js = SharedScripts\AiObject.js
+		SharedScripts\MathHelper.js = SharedScripts\MathHelper.js
+		SharedScripts\requestAnimationFramePolyfill.js = SharedScripts\requestAnimationFramePolyfill.js
+		SharedScripts\SpatialBucketManager.js = SharedScripts\SpatialBucketManager.js
+		SharedScripts\test.js = SharedScripts\test.js
+		SharedScripts\Vector2.js = SharedScripts\Vector2.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{05FD10CC-2A20-4ED1-92DF-3DF7ADA73AA2}"
+	ProjectSection(SolutionItems) = preProject
+		Drones\Scripts\DroneExperiment.js = Drones\Scripts\DroneExperiment.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{E880B74B-FE61-4C4B-90AF-C6E1B87B899F}"
+	ProjectSection(SolutionItems) = preProject
+		Drones\Styles\style.css = Drones\Styles\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{38092937-06FE-4089-9201-C885D24326D1}"
+	ProjectSection(SolutionItems) = preProject
+		Legion\Scripts\Legion.js = Legion\Scripts\Legion.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{9B85A8D8-5768-4894-B117-28FA00F6F959}"
+	ProjectSection(SolutionItems) = preProject
+		Legion\Styles\style.css = Legion\Styles\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B33332B3-9589-40F3-8208-7647FDCDBF79} = {095068AB-240F-48DE-AF5B-F6DF279327CF}
+		{B98B422A-3E7A-4AF2-8D0B-3CAC66947022} = {095068AB-240F-48DE-AF5B-F6DF279327CF}
+		{AC977798-C852-4EEE-97E8-64CEFA18EDB9} = {095068AB-240F-48DE-AF5B-F6DF279327CF}
+		{5EE28BA0-F542-44CF-ACC2-7A5FA19B7C65} = {AC977798-C852-4EEE-97E8-64CEFA18EDB9}
+		{056687C5-DA5D-48B6-B290-6EC87010CBCF} = {AC977798-C852-4EEE-97E8-64CEFA18EDB9}
+		{D7D7DC4A-78BA-4E21-B771-EF2C478683AB} = {095068AB-240F-48DE-AF5B-F6DF279327CF}
+		{05FD10CC-2A20-4ED1-92DF-3DF7ADA73AA2} = {B33332B3-9589-40F3-8208-7647FDCDBF79}
+		{E880B74B-FE61-4C4B-90AF-C6E1B87B899F} = {B33332B3-9589-40F3-8208-7647FDCDBF79}
+		{38092937-06FE-4089-9201-C885D24326D1} = {B98B422A-3E7A-4AF2-8D0B-3CAC66947022}
+		{9B85A8D8-5768-4894-B117-28FA00F6F959} = {B98B422A-3E7A-4AF2-8D0B-3CAC66947022}
+	EndGlobalSection
+EndGlobal

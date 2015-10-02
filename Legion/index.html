@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Legions</title>
+
+    <!--Script References-->
+    <script type="text/javascript" src="../SharedScripts/MathHelper.js"></script>
+    <script type="text/javascript" src="../SharedScripts/SpatialBucketManager.js"></script>
+    <script type="text/javascript" src="Scripts/Legion.js"></script>
+    <script type="text/javascript" src="../SharedScripts/requestAnimationFramePolyfill.js"></script>
+    <script type="text/javascript" src="../SharedScripts/AiObject.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/style.css" />
+</head>
+<body>
+    <div id="Game">
+        <form>
+            Spawn Amount:
+            <input type="range" id="spawnTypeBox" name="amountRange" min="0" max="TYPES.length" value="0" oninput="this.form.amountInput.value=this.value" />
+            <input type="number" name="amountInput" min="0" max="TYPES.length" value="1" oninput="this.form.amountRange.value=this.value" />
+        </form>
+        <input type="color" id="teamPicker" class="form-control" onchange="clickColor(0, -1, -1, 5)" value="#ff0000">
+        <canvas id="gameCanvas" />
+    </div>
+</body>
+</html>
